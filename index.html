@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" />
+  <title>Pintescul</title>
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+</head>
+
+<body class="bg-black text-gray-800">
+  <!--NAV BAR-->
+  <header class="text-gray-300 body-font">
+    <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+      <a class="flex title-font font-medium items-center text-gray-50 mb-4 md:mb-0">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round"
+          stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full"
+          viewBox="0 0 24 24">
+          <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+        </svg>
+        <span class="ml-3 text-xl">Patric Pintescul</span>
+      </a>
+      <nav
+        class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400 flex flex-wrap items-center text-base justify-center">
+        <a class="mr-5 hover:text-gray-50" href="#"><u><b>Home</b></u></a>
+        <a class="mr-5 hover:text-gray-50" href="#">Projects</a>
+        <a class="mr-5 hover:text-gray-50" href="#">Experience</a>
+        <a class="mr-5 hover:text-gray-50" href="#">Reach out</a>
+      </nav>
+      <button
+        class="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">Email
+        me
+        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+          class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+          <path d="M5 12h14M12 5l7 7-7 7"></path>
+        </svg>
+      </button>
+    </div>
+  </header>
+  <!--END NAV BAR-->
+
+  <!--INTRO-->
+  <section class="text-gray-300 body-font">
+    <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+      <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+        <lottie-player src="https://lottie.host/f15268c0-0ee1-4f5d-a481-826ebfbe081f/0GCIY2Ykd6.json"
+          background="##FFFFFF" speed="1" class="object-cover object-center rounded" loop autoplay direction="1"
+          mode="normal"></lottie-player>
+      </div>
+      <div
+        class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+        <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-50">I'm Patric,
+          <br class="hidden lg:inline-block">a full-stack junior developer
+        </h1>
+        <p class="mb-8 leading-relaxed">Hello! I'm 17 and my coding journey started just before covid, I had a simple
+          editor to take my notes and it wasnt working like I expected it to, so I searched on the internet looking for
+          a way to make my own app, after a bit of searching and writing I kind of gave up, but from there my curiosity
+          grew exponentially.</p>
+        <div class="flex justify-center">
+          <a
+            class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">My
+            GitHub</a>
+          <a
+            class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">LinkedIn</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--END INTRO-->
+
+  <!--PROJECTS-->
+  <section class="text-gray-300 body-font">
+    <div class="container px-5 py-24 mx-auto">
+      <div class="flex flex-col text-center w-full mb-20">
+        <h2 class="text-xs text-indigo-500 tracking-widest font-medium title-font mb-1">RECENT PROJECTS</h2>
+        <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-50">Explore my recent projects</h1>
+        <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Feel free to navigate my code, watch how i write clean,
+          re-usable code, well documented with their relative details.</p>
+      </div>
+      <div class="flex flex-wrap">
+        <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+          <h2 class="text-lg sm:text-xl text-gray-50 font-medium title-font mb-2">CLinkedLists</h2>
+          <p class="leading-relaxed text-base mb-4">A linked list made in C, with dynamic resizing and almost complete
+            functionality</p>
+          <a href="https://github.com/onlypatric/CLinkedLists" class="text-indigo-500 inline-flex items-center">Learn
+            More
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>
+          </a>
+        </div>
+        <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+          <h2 class="text-lg sm:text-xl text-gray-50 font-medium title-font mb-2">Parabola Graph</h2>
+          <p class="leading-relaxed text-base mb-4">A graph made entirely with javax.swing, without any external
+            library, it provides as close as possible representations of a parabola, letting the user choose the
+            variable's values using interactive sliders.</p>
+          <a href="https://github.com/onlypatric/PianoCartesiano" class="text-indigo-500 inline-flex items-center">Learn
+            More
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>
+          </a>
+        </div>
+        <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+          <h2 class="text-lg sm:text-xl text-gray-50 font-medium title-font mb-2">Swinpy</h2>
+          <p class="leading-relaxed text-base mb-4">An easy to use python-based javax.swing gui form creator, made for
+            quickly building a swing application's structure, automatic variable naming, highly customizable.</p>
+          <a href="https://github.com/onlypatric/swinpy" class="text-indigo-500 inline-flex items-center">Learn More
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>
+          </a>
+        </div>
+        <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+          <h2 class="text-lg sm:text-xl text-gray-50 font-medium title-font mb-2">GX Editor</h2>
+          <p class="leading-relaxed text-base mb-4">A python-based tkinter application built for editing code, it is not
+            fully complete yet basic functionality such as syntax highlighting is supported for popular languages.</p>
+          <a href="https://github.com/onlypatric/Editor-GX" class="text-indigo-500 inline-flex items-center">Learn More
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--END PROJECTS-->
+
+
+  <!-- EXPERIENCE -->
+  <section class="text-gray-300 body-font">
+    <div class="container px-5 py-24 mx-auto">
+      <h1 class="text-gray-50 text-3xl title-font font-medium mb-5">My experience</h1>
+      <div class="flex flex-wrap -mx-4 -my-8">
+        <div class="py-8 px-4 lg:w-1/3">
+          <div class="h-full flex items-start">
+            <div class="w-12 flex-shrink-0 flex flex-col text-center leading-none">
+              <span class="text-gray-500 pb-2 mb-2 border-b-2 border-gray-200">Since</span>
+              <span class="font-medium text-lg text-slate-200 title-font leading-none">2019</span>
+            </div>
+            <div class="flex-grow pl-6">
+              <h2 class="tracking-widest text-xs title-font font-medium text-indigo-500 mb-1">DESKTOP PROGRAMMING</h2>
+              <h1 class="title-font text-xl font-medium text-gray-50 mb-3">Python</h1>
+              <p class="leading-relaxed mb-5">In my journey to learn Data science and AI I had to learn python, a
+                language that allows extreme virtualization and importing C libraries for faster execution.</p>
+            </div>
+          </div>
+        </div>
+        <div class="py-8 px-4 lg:w-1/3">
+          <div class="h-full flex items-start">
+            <div class="w-12 flex-shrink-0 flex flex-col text-center leading-none">
+              <span class="text-gray-500 pb-2 mb-2 border-b-2 border-gray-200">Since</span>
+              <span class="font-medium text-lg text-slate-200 title-font leading-none">2019</span>
+            </div>
+            <div class="flex-grow pl-6">
+              <h2 class="tracking-widest text-xs title-font font-medium text-indigo-500 mb-1">DESKTOP PROGRAMMING</h2>
+              <h1 class="title-font text-xl font-medium text-gray-50 mb-3">Java</h1>
+              <p class="leading-relaxed mb-5">Old but gold, still to this day Java is one of the most widely used
+                programming languages.</p>
+            </div>
+          </div>
+        </div>
+        <div class="py-8 px-4 lg:w-1/3">
+          <div class="h-full flex items-start">
+            <div class="w-12 flex-shrink-0 flex flex-col text-center leading-none">
+              <span class="text-gray-500 pb-2 mb-2 border-b-2 border-gray-200">Since</span>
+              <span class="font-medium text-lg text-slate-200 title-font leading-none">2020</span>
+            </div>
+            <div class="flex-grow pl-6">
+              <h2 class="tracking-widest text-xs title-font font-medium text-indigo-500 mb-1">DESKTOP PROGRAMMING</h2>
+              <h1 class="title-font text-xl font-medium text-gray-50 mb-3">C & C++</h1>
+              <p class="leading-relaxed mb-5">A must for every programmer, C for memory controls and C++ for unreal
+                engine games.</p>
+            </div>
+          </div>
+        </div>
+        <div class="py-8 px-4 lg:w-1/3">
+          <div class="h-full flex items-start">
+            <div class="w-12 flex-shrink-0 flex flex-col text-center leading-none">
+              <span class="text-gray-500 pb-2 mb-2 border-b-2 border-gray-200">Since</span>
+              <span class="font-medium text-lg text-slate-200 title-font leading-none">2020</span>
+            </div>
+            <div class="flex-grow pl-6">
+              <h2 class="tracking-widest text-xs title-font font-medium text-indigo-500 mb-1">DESKTOP PROGRAMMING</h2>
+              <h1 class="title-font text-xl font-medium text-gray-50 mb-3">C#</h1>
+              <p class="leading-relaxed mb-5">A must for native Windows GUI applications.</p>
+            </div>
+          </div>
+        </div>
+        <div class="py-8 px-4 lg:w-1/3">
+          <div class="h-full flex items-start">
+            <div class="w-12 flex-shrink-0 flex flex-col text-center leading-none">
+              <span class="text-gray-500 pb-2 mb-2 border-b-2 border-gray-200">Since</span>
+              <span class="font-medium text-lg text-slate-200 title-font leading-none">2021</span>
+            </div>
+            <div class="flex-grow pl-6">
+              <h2 class="tracking-widest text-xs title-font font-medium text-indigo-500 mb-1">DESKTOP PROGRAMMING</h2>
+              <h1 class="title-font text-xl font-medium text-gray-50 mb-3">Swift Console</h1>
+              <p class="leading-relaxed mb-5">I built different console apps using SwiftUI on windows (yes there's a
+                SwiftUI windows compiler)</p>
+            </div>
+          </div>
+        </div>
+        <div class="py-8 px-4 lg:w-1/3">
+          <div class="h-full flex items-start">
+            <div class="w-12 flex-shrink-0 flex flex-col text-center leading-none">
+              <span class="text-gray-500 pb-2 mb-2 border-b-2 border-gray-200">Since</span>
+              <span class="font-medium text-lg text-slate-200 title-font leading-none">2021</span>
+            </div>
+            <div class="flex-grow pl-6">
+              <h2 class="tracking-widest text-xs title-font font-medium text-indigo-500 mb-1">DESKTOP PROGRAMMING</h2>
+              <h1 class="title-font text-xl font-medium text-gray-50 mb-3">Rust</h1>
+              <p class="leading-relaxed mb-5">The safest low level language catched my attention during some C
+                researching.</p>
+            </div>
+          </div>
+        </div>
+        <div class="py-8 px-4 lg:w-1/3">
+          <div class="h-full flex items-start">
+            <div class="w-12 flex-shrink-0 flex flex-col text-center leading-none">
+              <span class="text-gray-500 pb-2 mb-2 border-b-2 border-gray-200">Since</span>
+              <span class="font-medium text-lg text-slate-200 title-font leading-none">2023</span>
+            </div>
+            <div class="flex-grow pl-6">
+              <h2 class="tracking-widest text-xs title-font font-medium text-indigo-500 mb-1">DESKTOP PROGRAMMING</h2>
+              <h1 class="title-font text-xl font-medium text-gray-50 mb-3">Pascal</h1>
+              <p class="leading-relaxed mb-5">I learned Pascal to then master SCL, a language widely used in industrial
+                automation.</p>
+            </div>
+          </div>
+        </div>
+        <div class="py-8 px-4 lg:w-1/3">
+          <div class="h-full flex items-start">
+            <div class="w-12 flex-shrink-0 flex flex-col text-center leading-none">
+              <span class="text-gray-500 pb-2 mb-2 border-b-2 border-gray-200">Since</span>
+              <span class="font-medium text-lg text-slate-200 title-font leading-none">2023</span>
+            </div>
+            <div class="flex-grow pl-6">
+              <h2 class="tracking-widest text-xs title-font font-medium text-indigo-500 mb-1">DESKTOP PROGRAMMING</h2>
+              <h1 class="title-font text-xl font-medium text-gray-50 mb-3">ARM Assembly</h1>
+              <p class="leading-relaxed mb-5">I learned assembly just for a challenge, it has been a little easier for
+                me because i learned C before.</p>
+            </div>
+          </div>
+        </div>
+        <div class="py-8 px-4 lg:w-1/3">
+          <div class="h-full flex items-start">
+            <div class="w-12 flex-shrink-0 flex flex-col text-center leading-none">
+              <span class="text-gray-500 pb-2 mb-2 border-b-2 border-gray-200">Since</span>
+              <span class="font-medium text-lg text-slate-200 title-font leading-none">2023</span>
+            </div>
+            <div class="flex-grow pl-6">
+              <h2 class="tracking-widest text-xs title-font font-medium text-indigo-500 mb-1">MOBILE PROGRAMMING</h2>
+              <h1 class="title-font text-xl font-medium text-gray-50 mb-3">SwiftUI</h1>
+              <p class="leading-relaxed mb-5">The programming language for Apple products, ever since I got my Mac I've
+                been learning how to code using the SwiftUI library.</p>
+            </div>
+          </div>
+        </div>
+        <div class="py-8 px-4 lg:w-1/3">
+          <div class="h-full flex items-start">
+            <div class="w-12 flex-shrink-0 flex flex-col text-center leading-none">
+              <span class="text-gray-500 pb-2 mb-2 border-b-2 border-gray-200">Since</span>
+              <span class="font-medium text-lg text-slate-200 title-font leading-none">2020</span>
+            </div>
+            <div class="flex-grow pl-6">
+              <h2 class="tracking-widest text-xs title-font font-medium text-indigo-500 mb-1">MOBILE PROGRAMMING</h2>
+              <h1 class="title-font text-xl font-medium text-gray-50 mb-3">Kotlin</h1>
+              <p class="leading-relaxed mb-5">Learned kotlin by accident, I wanted to make Android apps and i had to
+                learn kotlin, it seemed easier to me rather than Java.</p>
+            </div>
+          </div>
+        </div>
+        <div class="py-8 px-4 lg:w-1/3">
+          <div class="h-full flex items-start">
+            <div class="w-12 flex-shrink-0 flex flex-col text-center leading-none">
+              <span class="text-gray-500 pb-2 mb-2 border-b-2 border-gray-200">Since</span>
+              <span class="font-medium text-lg text-slate-200 title-font leading-none">2020</span>
+            </div>
+            <div class="flex-grow pl-6">
+              <h2 class="tracking-widest text-xs title-font font-medium text-indigo-500 mb-1">WEB PROGRAMMING</h2>
+              <h1 class="title-font text-xl font-medium text-gray-50 mb-3">HTML&CSS</h1>
+              <p class="leading-relaxed mb-5">The base of each web page, I've used HTML and CSS for countless projects,
+                even using electron.</p>
+            </div>
+          </div>
+        </div>
+        <div class="py-8 px-4 lg:w-1/3">
+          <div class="h-full flex items-start">
+            <div class="w-12 flex-shrink-0 flex flex-col text-center leading-none">
+              <span class="text-gray-500 pb-2 mb-2 border-b-2 border-gray-200">Since</span>
+              <span class="font-medium text-lg text-slate-200 title-font leading-none">2020</span>
+            </div>
+            <div class="flex-grow pl-6">
+              <h2 class="tracking-widest text-xs title-font font-medium text-indigo-500 mb-1">WEB PROGRAMMING</h2>
+              <h1 class="title-font text-xl font-medium text-gray-50 mb-3">JavaScript</h1>
+              <p class="leading-relaxed mb-5">A simple scripting language which I've used in the beginning to program
+                simple web servers and HTML scripts.</p>
+            </div>
+          </div>
+        </div>
+        <div class="py-8 px-4 lg:w-1/3">
+          <div class="h-full flex items-start">
+            <div class="w-12 flex-shrink-0 flex flex-col text-center leading-none">
+              <span class="text-gray-500 pb-2 mb-2 border-b-2 border-gray-200">Since</span>
+              <span class="font-medium text-lg text-slate-200 title-font leading-none">2021</span>
+            </div>
+            <div class="flex-grow pl-6">
+              <h2 class="tracking-widest text-xs title-font font-medium text-indigo-500 mb-1">WEB PROGRAMMING</h2>
+              <h1 class="title-font text-xl font-medium text-gray-50 mb-3">TypeScript</h1>
+              <p class="leading-relaxed mb-5">A versatile variant of JavaScript that makes scalability easier, its my
+                main choice when deciding between JS and TS</p>
+            </div>
+          </div>
+        </div>
+        <div class="py-8 px-4 lg:w-1/3">
+          <div class="h-full flex items-start">
+            <div class="w-12 flex-shrink-0 flex flex-col text-center leading-none">
+              <span class="text-gray-500 pb-2 mb-2 border-b-2 border-gray-200">Since</span>
+              <span class="font-medium text-lg text-slate-200 title-font leading-none">2021</span>
+            </div>
+            <div class="flex-grow pl-6">
+              <h2 class="tracking-widest text-xs title-font font-medium text-indigo-500 mb-1">WEB PROGRAMMING</h2>
+              <h1 class="title-font text-xl font-medium text-gray-50 mb-3">React</h1>
+              <p class="leading-relaxed mb-5">The journey to learning react never stops, its complete with wide
+                developer-base, simple functionalities and a layer of virtualization that makes everything easier.</p>
+            </div>
+          </div>
+        </div>
+        <div class="py-8 px-4 lg:w-1/3">
+          <div class="h-full flex items-start">
+            <div class="w-12 flex-shrink-0 flex flex-col text-center leading-none">
+              <span class="text-gray-500 pb-2 mb-2 border-b-2 border-gray-200">Since</span>
+              <span class="font-medium text-lg text-slate-200 title-font leading-none">2022</span>
+            </div>
+            <div class="flex-grow pl-6">
+              <h2 class="tracking-widest text-xs title-font font-medium text-indigo-500 mb-1">WEB PROGRAMMING</h2>
+              <h1 class="title-font text-xl font-medium text-gray-50 mb-3">NextJS</h1>
+              <p class="leading-relaxed mb-5">I used nextJS to build my portfolio using shadcn component library</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- END EXPERIENCE -->
+
+  <!-- COURSES -->
+  <section class="text-gray-300 body-font">
+    <div class="container px-5 py-24 mx-auto">
+      <div class="text-center mb-20">
+        <h1 class="sm:text-3xl text-2xl font-medium text-center title-font text-gray-50 mb-4">Courses and knowledge
+        </h1>
+        <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">Explore the courses that I have taken, so you
+          have a better understanding of my capabilities.</p>
+      </div>
+      <div class="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
+        <div class="p-2 sm:w-1/2 w-full">
+          <div class="bg-gray-800 rounded flex p-4 h-full items-center">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"
+              class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+              <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+              <path d="M22 4L12 14.01l-3-3"></path>
+            </svg>
+            <span class="title-font font-medium">Generative AI and machine learning <b>at Google LLC</b></span>
+          </div>
+        </div>
+        <div class="p-2 sm:w-1/2 w-full">
+          <div class="bg-gray-800 rounded flex p-4 h-full items-center">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"
+              class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+              <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+              <path d="M22 4L12 14.01l-3-3"></path>
+            </svg>
+            <span class="title-font font-medium">ML Engineer <b>at Google LLC</b></span>
+          </div>
+        </div>
+        <div class="p-2 sm:w-1/2 w-full">
+          <div class="bg-gray-800 rounded flex p-4 h-full items-center">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"
+              class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+              <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+              <path d="M22 4L12 14.01l-3-3"></path>
+            </svg>
+            <span class="title-font font-medium">TensorFlow developer <b>at Google LLC</b></span>
+          </div>
+        </div>
+        <div class="p-2 sm:w-1/2 w-full">
+          <div class="bg-gray-800 rounded flex p-4 h-full items-center">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"
+              class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+              <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+              <path d="M22 4L12 14.01l-3-3"></path>
+            </svg>
+            <span class="title-font font-medium">React Native Specialization <b>at Meta LLC</b></span>
+          </div>
+        </div>
+        <div class="p-2 sm:w-1/2 w-full">
+          <div class="bg-gray-800 rounded flex p-4 h-full items-center">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"
+              class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+              <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+              <path d="M22 4L12 14.01l-3-3"></path>
+            </svg>
+            <span class="title-font font-medium">Google UX Design <b>at Google LLC</b></span>
+          </div>
+        </div>
+        <div class="p-2 sm:w-1/2 w-full">
+          <div class="bg-gray-800 rounded flex p-4 h-full items-center">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"
+              class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+              <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+              <path d="M22 4L12 14.01l-3-3"></path>
+            </svg>
+            <span class="title-font font-medium">Advanced react and swift <b>at Meta LLC</b></span>
+          </div>
+        </div>
+        <div class="p-2 sm:w-1/2 w-full">
+          <div class="bg-gray-800 rounded flex p-4 h-full items-center">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"
+              class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+              <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+              <path d="M22 4L12 14.01l-3-3"></path>
+            </svg>
+            <span class="title-font font-medium">Meta front-end dev <b>at Meta LLC</b></span>
+          </div>
+        </div>
+        <div class="p-2 sm:w-1/2 w-full">
+          <div class="bg-gray-800 rounded flex p-4 h-full items-center">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"
+              class="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+              <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+              <path d="M22 4L12 14.01l-3-3"></path>
+            </svg>
+            <span class="title-font font-medium">Google data analytics <b>at Google LLC</b></span>
+          </div>
+        </div>
+      </div>
+      <!--<button class="flex mx-auto mt-16 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button>-->
+    </div>
+  </section>
+  <!-- END COURSES -->
+
+  <!-- QINSTA -->
+  <section class="text-gray-300 body-font overflow-hidden">
+    <div class="container px-5 py-24 mx-auto">
+      <div class="lg:w-4/5 mx-auto flex flex-wrap">
+        <lottie-player src="https://lottie.host/5354f92e-4a56-478b-a7cc-ba7d17ed1d38/ocGIDTNFwW.json"
+          background="##ffffff" speed="1" class="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded" loop
+          autoplay direction="1" mode="normal"></lottie-player>
+        <div class="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
+          <h2 class="text-sm title-font text-gray-500 tracking-widest">Pintescul Studios</h2>
+          <h1 class="text-gray-50 text-3xl title-font font-medium mb-1">QInsta - Instagram account manager</h1>
+          <p class="leading-relaxed">
+            Manage thousands of Instagram accounts through an automation software based on C++,
+            this manager is able to send thousands of messages or comments, or able to tag thousands of people under a
+            comment section,
+            you will be able to expand your customer base through an easy to use software like this.
+          </p>
+          <div class="flex mt-6 items-center pb-5 border-b-2 border-gray-100 mb-5">
+            <div class="flex items-center">
+              <span class="mr-3">License type</span>
+              <div class="relative">
+                <select id="dropdown"
+                  class="rounded bg-black border appearance-none border-gray-300 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-200 focus:border-indigo-500 text-base pl-3 pr-10">
+                  <option>Personal</option>
+                  <option>Starter</option>
+                  <option>Balanced</option>
+                  <option>Advanced</option>
+                  <option>Professional</option>
+                </select>
+                <span
+                  class="absolute right-0 top-0 h-full w-10 text-center text-gray-300 pointer-events-none flex items-center justify-center">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    class="w-4 h-4" viewBox="0 0 24 24">
+                    <path d="M6 9l6 6 6-6"></path>
+                  </svg>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="flex">
+            <span class="title-font font-medium text-2xl text-gray-50" id="price-tag">FREE</span>
+            <a href="/qinsta.html"
+              class="flex ml-auto text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded">
+              Find out more
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- END QINSTA -->
+
+  <!--CONTACT-->
+  <section class="text-gray-300 body-font relative">
+    <div class="container px-5 py-24 mx-auto flex sm:flex-nowrap flex-wrap">
+      <div
+        class="lg:w-2/3 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
+        <iframe class="absolute inset-0" style="filter: grayscale(1) contrast(1.2) opacity(0.4);" title="map"
+          marginheight="0" marginwidth="0" scrolling="no"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d90168.74622759159!2d7.587516859820097!3d45.07010925010674!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47886d126418be25%3A0x8903f803d69c77bf!2sTorino%20TO!5e0!3m2!1sit!2sit!4v1707996709546!5m2!1sit!2sit"
+          width="100%" height="100%" frameborder="0"></iframe>
+        <div class="bg-black relative flex flex-wrap py-6 rounded shadow-md">
+          <div class="lg:w-1/2 px-6">
+            <h2 class="title-font font-semibold text-gray-50 tracking-widest text-xs">INFO</h2>
+            <p class="mt-1">Contact me for job offers, possibility to buy a product of mine, questions about anything (preferrably about my work).</p>
+          </div>
+          <div class="lg:w-1/2 px-6 mt-4 lg:mt-0">
+            <h2 class="title-font font-semibold text-gray-50 tracking-widest text-xs">EMAIL</h2>
+            <a class="text-indigo-500 leading-relaxed" href="mailto:patricpintescul@gmail.com">patricpintescul@gmail.com</a>
+            <h2 class="title-font font-semibold text-gray-50 tracking-widest text-xs mt-4">PHONE</h2>
+            <a class="leading-relaxed" href="tel:+393317704837">Phone (Optional)</a>
+          </div>
+        </div>
+      </div>
+      <div class="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
+        <h2 class="text-gray-50 text-lg mb-1 font-medium title-font">Feedback</h2>
+        <p class="leading-relaxed mb-5 text-gray-300">Post-ironic portland shabby chic echo park, banjo fashion axe</p>
+        <form action="https://formspree.io/f/xvonedbd" method="POST">
+          <div class="relative mb-4">
+        <span class="uppercase text-sm text-gray-300 font-bold">
+          Full Name
+        </span>
+            <input type="text" id="name" placeholder="Enter your Name" required name="name"
+              class="w-full bg-gray-900 rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+          </div>
+          <div class="relative mb-4">
+            <label for="email" class="leading-7 text-sm text-gray-300">Email</label>
+            <input type="email" required placeholder="enter your email address" id="email" name="email"
+              class="w-full bg-gray-900 rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+          </div>
+          <div class="relative mb-4">
+            <label for="phone" class="leading-7 text-sm text-gray-300">Phone</label>
+            <input type="phone" placeholder="+39 123 456 7890" id="phone" name="phone"
+              class="w-full bg-gray-900 rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+          </div>
+          <div class="relative mb-4">
+            <label for="message" class="leading-7 text-sm text-gray-300">Message</label>
+            <textarea id="message" name="message" placeholder="Enter your Message" required
+              class="w-full bg-gray-900 rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
+          </div>
+          <button
+            class="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg" type="submit">Submit</button>
+          <p class="text-xs text-gray-500 mt-3">Note that any form of misleading or threatening message, aswell as spam will be ignored.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+  <!--END CONTACT-->
+  <!--FOOTER-->
+   
+  <footer class="text-gray-300 body-font">
+    <div class="container px-5 py-24 mx-auto">
+      <div class="flex flex-wrap md:text-left text-center order-first">
+        <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+        </div>
+        <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+          <h2 class="title-font font-medium text-gray-50 tracking-widest text-sm mb-3">NAVIGATE</h2>
+          <nav class="list-none mb-10">
+            <li>
+              <a class="text-gray-300 hover:text-slate-200">First Link</a>
+            </li>
+            <li>
+              <a class="text-gray-300 hover:text-slate-200">Second Link</a>
+            </li>
+            <li>
+              <a class="text-gray-300 hover:text-slate-200">Third Link</a>
+            </li>
+            <li>
+              <a class="text-gray-300 hover:text-slate-200">Fourth Link</a>
+            </li>
+          </nav>
+        </div>
+        <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+          <h2 class="title-font font-medium text-gray-50 tracking-widest text-sm mb-3">SHOP & EXTRA</h2>
+          <nav class="list-none mb-10">
+            <li>
+              <a class="text-gray-300 hover:text-slate-200">First Link</a>
+            </li>
+            <li>
+              <a class="text-gray-300 hover:text-slate-200">Second Link</a>
+            </li>
+            <li>
+              <a class="text-gray-300 hover:text-slate-200">Third Link</a>
+            </li>
+            <li>
+              <a class="text-gray-300 hover:text-slate-200">Fourth Link</a>
+            </li>
+          </nav>
+        </div>
+        <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+          <h2 class="title-font font-medium text-gray-50 tracking-widest text-sm mb-3">THANK YOU!</h2>
+          <div class="flex xl:flex-nowrap md:flex-nowrap lg:flex-wrap flex-wrap justify-center items-end md:justify-start">
+            <div class="relative w-40 sm:w-auto xl:mr-4 lg:mr-0 sm:mr-4 mr-2">
+              <label for="footer-field" class="leading-7 text-sm text-gray-300">Have a cookie for having visited my web page 🍪</label>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bg-black">
+      <div class="container px-5 py-6 mx-auto flex items-center sm:flex-row flex-col">
+        <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-50">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
+            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+          </svg>
+          <span class="ml-3 text-xl">Patric Pintescul</span>
+        </a>
+        <p class="text-sm text-gray-500 sm:ml-6 sm:mt-0 mt-4">© 2024 Patric Pintescul —
+          <a href="https://instagram.com/only.patric" rel="noopener noreferrer" class="text-gray-300 ml-1" target="_blank">@onlypatric</a>
+        </p>
+        <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+          <a class="ml-3 text-gray-500" href="https://instagram.com/only.patric">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+              <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+              <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+            </svg>
+          </a>
+          <a class="ml-3 text-gray-500">
+            <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+              <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+              <circle cx="4" cy="4" r="2" stroke="none"></circle>
+            </svg>
+          </a>
+        </span>
+      </div>
+    </div>
+  </footer>
+   
+  <!--END FOOTER-->
+  <script>
+    // Get the <select> element
+    const dropdown = document.getElementById('dropdown');
+
+    const prices = {
+      "Personal": "FREE",
+      "Starter": "30.00€ / 3 months",
+      "Balanced": "45.00€ / 3 months",
+      "Advanced": "60€ / 3 months",
+      "Professional": "100€ / 6 months"
+    }
+
+    // Add an event listener for the "change" event
+    dropdown.addEventListener('change', function () {
+      // Get the selected option's text
+      const selectedOptionText = dropdown.options[dropdown.selectedIndex].text;
+      const priceTag = document.getElementById("price-tag")
+      priceTag.innerText = prices[selectedOptionText]
+    });
+  </script>
+</body>
+
+</html>
